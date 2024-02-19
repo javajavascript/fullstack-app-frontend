@@ -2,17 +2,22 @@
 
 Inspired by [this video](https://www.youtube.com/watch?v=4LZKnegAm4g)
 
-## Setup Instructions: front end
+## Setup Instructions: Front End
+
 `cd` to the correct directory
 `npm install`
 `npm start`
 
-## Setup Instructions: back end
+## Setup Instructions: Back End
+
 Right click, run as, maven clean
+
 Right click, run as, maven install
+
 Right click, run as, spring boot app
 
-## Setup Instructions: database
+## Setup Instructions: Database
+
 In order to run MySQL Workbench, you need to install MySQL Server! These are 2 separate things!
 
 MySQL Workbench: https://dev.mysql.com/downloads/workbench/
@@ -34,13 +39,14 @@ Enter the following queries and execute them one by one:
 
 Click on Schemas on left side bottom, refresh, and you will see the database
 
-## Connect back end to database
+## Connect Back End to Database
 
 In MySQL Workbench, click server, sever status, the port is the shown here, default is 3306
 
 In Spring Tool Suite, application.properties, the datasource.url = jdbc:mysql://localhost:3306/fullstack where 3306 is the port and fullstack is the database name
 
-## Connect back end to front end
+## Connect Back End to Front end
 
 In Spring Tool Suite, right click, run as, spring boot app, the console will show the tomcat port for the back end, default is 8080
+
 In VSCode, npm install and start, the console will show the port for front end, default is 3000
