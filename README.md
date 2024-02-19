@@ -21,10 +21,13 @@ Right click, run as, spring boot app
 In order to run MySQL Workbench, you need to install MySQL Server! These are 2 separate things!
 
 MySQL Workbench: https://dev.mysql.com/downloads/workbench/
+
 MySQL Community Server: https://dev.mysql.com/downloads/mysql/
 
 MySQL Workbench is a GUI for MySQL Server
+
 MySQL Server is the actual database
+
 MySQL Workbench Example
 
 Click server, startup/shutdown, start server
