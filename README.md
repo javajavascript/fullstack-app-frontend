@@ -5,7 +5,9 @@ Inspired by [this video](https://www.youtube.com/watch?v=4LZKnegAm4g)
 ## Setup Instructions: Front End
 
 `cd` to the correct directory
+
 `npm install`
+
 `npm start`
 
 ## Setup Instructions: Back End
@@ -34,10 +36,17 @@ Click server, startup/shutdown, start server
 
 Enter the following queries and execute them one by one:
 `create database fullstack;`
+
 `show databases;`
+
 `use fullstack;`
+
 `show tables;`
+
+Go on the UI and create a user, which will create the user table, then execute these commands:
+
 `desc user;` (description user)
+
 `select * from user;`
 
 Click on Schemas on left side bottom, refresh, and you will see the database
@@ -47,6 +56,8 @@ Click on Schemas on left side bottom, refresh, and you will see the database
 In MySQL Workbench, click server, sever status, the port is the shown here, default is 3306
 
 In Spring Tool Suite, application.properties, the datasource.url = jdbc:mysql://localhost:3306/fullstack where 3306 is the port and fullstack is the database name
+
+**IMPORTANT**: In Spring Tool Suite,  application.properties, the database password is based on the local device, so it can be different on different devices! Make sure to set the database password for your local device's SQL Workbench!
 
 ## Connect Back End to Front end
 
